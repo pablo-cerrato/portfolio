@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto, #inicio {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+}
+.cohete {
+    height: 410px;
+    margin-top: 10px;
+}
+.cohete:hover {
+    padding: 4px;
+}
+#inicio .input-home p {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.nav-item a {
+    color: #282828;
+}
+nav .active {
+    border: 1px solid #E20000;
+    border-radius: 20px;
+    width: 100px;
+}
+.btn-rojo {
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-radius: 15px;
+    height: 36px;
+    width: 180px;
+}
+#inicio .btn:hover {
+    background-color: #370a6d;
+    color: white;
+}
+main h1 {
+    color: #E20000;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 56px;
+    margin-top: 14px;
+    font-size: 36px;
+}
+main .btn {
+    color: #370a6d;
+    background-color: white;
+    border: none;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    min-height: 480px;
+}
+form input[type=text], form input[type=mail], form input[type=tel] {
+    border-radius: 16px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+#txtMensaje {
+    border-radius: 16px;
+    height: 150px;
+}
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto .btn:hover {
+    background-color: #370a6d;
+    color: white;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #6a6a6a;
+    font-size: 16px;
+}
+textarea {
+    border-radius: 15px;    
+}
+
+footer {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+footer a {
+    color: white;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer .fa-whatsapp {
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 16px 0 22px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+#proyectos {
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: cover;
+    margin: 0;
+}
+#proyectos img {
+    height: 100%;
+    width: 100%;
+}
+#proyecto .row-card {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.img-fluid {
+    max-width: 100%;
+}
+#proyectos h1 {
+    margin: 0 0 8px;
+}
+#proyectos img {
+    height: 220px;
+}
+ #proyectos h2 {
+    font-size: 16px;
+    margin-left: 16px;
+    color: white;
+}
+#proyectos p {
+    font-size: 14px;
+}
+#proyectos .subt {
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    height: 50px;
+}
+ #proyectos .btn {
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-style: none;
+}
+#proyectos .btn:hover {
+    background-color: #370a6d;
+    color: white;
+    border-style: none;
+    padding-top: 6px;
+}
+#proyectos .codigo {
+    color: #E20000;
+    text-decoration: none;
+}
+#proyectos footer {
+    color: #E20000;
+    font-weight: 200;
+}
+#proyectos .fa-github {
+    color: #E20000;
+} 
+#proyectos .fa-linkedin-in {
+    background-color: #E20000;
+    color: white;
+}
+#proyectos footer a {
+    text-decoration: underline;
+    color: #E20000;
+}
+#sobre-mi {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+}
+#sobre-mi .btn {
+    background-color: #E20000;
+    color: white;
+    width: 180px;
+}
+#sobre-mi .btn:hover {
+    background-color: #370a6d;
+    color: white;
+}
+#sobre-mi .gato {
+    border-radius: 50%;
+    height: 220px;
+}
+#sobre-mi #tecnologias img {
+    height: 70px;
+    width: 70px;
+}
+#sobre-mi h2 {
+    font-size: 24px;
+}
+#sobre-mi h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+#sobre-mi .card {
+    height: 182px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    width: 160px;
+}
+#experiencia {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+#sobre-mi h2 {
+    color: #370A6D;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#sobre-mi #experiencia h3 {
+    font-size: 18px;
+    color: #6a6a6a;
+    font-weight: 600;
+}
+#sobre-mi h4 {
+    font-size: 17px;
+    color: #370a6d;
+}
+#sobre-mi h5 {
+    font-size: 14px;
+    color: #6a6a6a;
+}
+.fa-briefcase {
+    padding-right: 10px;
+}
+#sobre-mi #experiencia {
+    background-color: white;
+    padding-top: 16px;
+}
+#sobre-mi #experiencia img {
+    height: 100px;
+    padding-left: 26px;
+}
