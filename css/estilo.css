@@ -191,10 +191,6 @@ footer .fa-whatsapp {
     text-decoration: underline;
     color: #E20000;
 }
-#sobre-mi {
-    background-image: url("../images/fondo-contacto.png");
-    background-size: cover;
-}
 #sobre-mi .btn {
     background-color: #E20000;
     color: white;
@@ -227,6 +223,25 @@ footer .fa-whatsapp {
     margin-bottom: 20px;
     width: 160px;
 }
+#sobre-mi .fa-linkedin-in {
+    color: #E20000;
+}
+#sobre-mi .fa-github {
+    color: #E20000;
+}
+#sobre-mi footer a {
+    color: #E20000;
+}
+#tecnologias {
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    width: 100%;
+}
+#sobre-mi #tecnologias h2 {
+    color: white;
+}
+#experiencias {
+    background-color: white;
+}
 #experiencia {
     margin-bottom: 20px;
     border-radius: 10px;
@@ -238,6 +253,9 @@ footer .fa-whatsapp {
     font-size: 24px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+#sobre-mi footer .depcsuite {
+    color: #E20000;
 }
 #sobre-mi #experiencia h3 {
     font-size: 18px;
