@@ -245,7 +245,6 @@ footer .fa-whatsapp {
 #experiencia {
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
 #sobre-mi h2 {
     color: #370A6D;
@@ -280,4 +279,54 @@ footer .fa-whatsapp {
 #sobre-mi #experiencia img {
     height: 100px;
     padding-left: 26px;
+}
+#formacion img {
+    height: 70px;
+}
+#formacion h2 {
+    color: #E20000;
+}
+#formacion h3 {
+    color: #6a6a6a;
+    font-size: 18px;
+    font-weight: 600;
+}
+#formacion h4 {
+    color: #E20000;
+}
+#formacion h5 {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+#formacion p {
+    color: #6a6a6a;
+    font-size: 16px;
+}
+#formacion i {
+    margin: 0 10px;
+}
+#cursos i {
+    margin: 0 10px;
+}
+#cursos img {
+    height: 70px;
+}
+#cursos h2 {
+    color: #E20000;
+}
+#cursos h3 {
+    color: #6a6a6a;
+    font-size: 18px;
+    font-weight: 600;
+}
+#cursos h4 {
+    color: #E20000;
+}
+#cursos h5 {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+#cursos p {
+    color: #6a6a6a;
+    font-size: 16px;
 }
