@@ -50,7 +50,7 @@ nav .active {
 main h1 {
     color: #E20000;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 56px;
+    margin-bottom: 14px;
     margin-top: 14px;
     font-size: 36px;
 }
@@ -194,7 +194,7 @@ footer .fa-whatsapp {
 #sobre-mi .btn {
     background-color: #E20000;
     color: white;
-    width: 180px;
+    width: 177px;
 }
 #sobre-mi .btn:hover {
     background-color: #370a6d;
@@ -203,6 +203,7 @@ footer .fa-whatsapp {
 #sobre-mi .gato {
     border-radius: 50%;
     height: 220px;
+    margin-bottom: 40px;
 }
 #sobre-mi #tecnologias img {
     height: 70px;
@@ -219,7 +220,7 @@ footer .fa-whatsapp {
 #sobre-mi .card {
     height: 182px;
     box-sizing: border-box;
-    margin: 0 10px;
+    margin: 0 6px;
     margin-bottom: 20px;
     width: 160px;
 }
@@ -341,7 +342,7 @@ footer .fa-whatsapp {
     border-radius: 15px;
     padding: 40px 0;
     margin: 0;
-    width: 180px;
+    width: 130px;
 }    
 #idiomas i {
     font-size: 80px;
