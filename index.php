@@ -1,3 +1,9 @@
+<?php
+$pg = "inicio";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -12,35 +18,10 @@
     <link rel="stylesheet" href="css/estilo.css">
     <title>Inicio</title>
 </head>
+
 <body id="inicio" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid p-0">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-1 me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item px-0">
-                            <a class="nav-link active me-2 py-1 float-start" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link me-4 ms-2 py-1 float-start" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link me-4 py-1 float-start" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link me-4 py-1 float-start" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline mt-sm-0 mt-4">
-                        <a href="#" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once("menu.php"); ?>
     </header>
     <main class="container">
         <div class="row">
@@ -67,8 +48,7 @@
         <div class="row mt-5 pb-3">
             <div class="col-12 col-sm-3 text-center text-sm-start">
                 <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0">
                 Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
